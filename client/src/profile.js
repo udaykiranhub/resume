@@ -26,7 +26,13 @@ borderRadius:"50%",
              </center>
               </Card.Title>
               <Card.Text className="text-center mb-3">
-          <center>  <p><strong>Date of Birth:</strong> July 9, 2004</p></center>
+          <center>  
+            <p><strong>Date of Birth:</strong> July 9, 2004</p>
+          
+           <p><strong>email:</strong>peddaudaykiran1@gmail.com</p>
+           <p><strong>Phone:</strong>6305355185</p>
+          
+          </center>
               </Card.Text>
               <Card.Text>
                 <h5>Summary</h5>

@@ -18,16 +18,16 @@ function Toggle() {
                 
                 <nav>
                 <button className="menu-toggle" onClick={toggleMenu}>
-                    {isMenuOpen ? (<h1>Close</h1>): (<h1 style={{fontStyle:"italic"}}>Open Menu</h1>)}
+                    {isMenuOpen ? (<h1 style={{color:"red"}}>Close</h1>): (<h1 style={{fontStyle:"italic",color:"green"}}>Open Menu</h1>)}
                 </button>
                 <ul className={isMenuOpen ? 'open' : ''} style={{}} >
                   <li><Link to="/"  className="no-underline">Home</Link></li>
                     <li><Link to="/profile"  className="no-underline">Profile</Link></li>
                     <li><Link to="/education"  className="no-underline">Education</Link></li>
                   
-                    <li>Certifications</li>
-                    <li>Achievements</li>
-                    <li>Internships</li>
+                    <li><Link to="/certifications"  className="no-underline">certifications</Link></li>
+                    <li><Link to="/skills"  className="no-underline">Skills</Link></li>
+                    <li><Link to="/contact"  className="no-underline">contact me</Link></li>
                     <li>Projects</li>
                     
                 </ul>

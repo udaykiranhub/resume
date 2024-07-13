@@ -10,7 +10,7 @@ const Home = () => {
         <Col md={8}>
           <Card className="shadow-light p-5">
             <Card.Body>
-              <Card.Title className="display-4">Welcome to My Resume Builder</Card.Title>
+              <Card.Title className="display-4"><strong>Please Welcome !</strong></Card.Title>
               <Card.Text className="lead">
              
               </Card.Text>

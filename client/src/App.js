@@ -11,6 +11,10 @@ import Toggle from './toggle';
 import Education from './education';
  import Home from "./home.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Certification from './certifications.js';
+
+import Skills from './skills.js';
+import Contact from './contact.js';
 
 function App() {
   return (
@@ -32,6 +36,9 @@ function App() {
       <Route path="/" element={<Home/>}/>
         <Route path="/profile" element={<Profile />} />
         <Route path="/education" element={<Education />} />
+        <Route path="/certifications" element={<Certification/>}/>
+        <Route path="/skills" element={<Skills/>}/>
+        <Route path="/contact" element={<Contact/>}/>
         {/* Add other routes here */}
       </Routes>
     </Container>
