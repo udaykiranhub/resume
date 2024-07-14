@@ -15,6 +15,7 @@ import Certification from './certifications.js';
 
 import Skills from './skills.js';
 import Contact from './contact.js';
+import Projects from './projects.js';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/certifications" element={<Certification/>}/>
         <Route path="/skills" element={<Skills/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/projects" element={<Projects/>}/>
         {/* Add other routes here */}
       </Routes>
     </Container>

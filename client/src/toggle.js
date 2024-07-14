@@ -24,11 +24,12 @@ function Toggle() {
                   <li><Link to="/"  className="no-underline">Home</Link></li>
                     <li><Link to="/profile"  className="no-underline">Profile</Link></li>
                     <li><Link to="/education"  className="no-underline">Education</Link></li>
-                  
-                    <li><Link to="/certifications"  className="no-underline">certifications</Link></li>
                     <li><Link to="/skills"  className="no-underline">Skills</Link></li>
+                    <li><Link to="/certifications"  className="no-underline">certifications</Link></li>
+             
+                    <li><Link to="/projects"  className="no-underline">Projects</Link></li>
                     <li><Link to="/contact"  className="no-underline">contact me</Link></li>
-                    <li>Projects</li>
+                  
                     
                 </ul>
             </nav>

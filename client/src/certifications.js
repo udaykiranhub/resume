@@ -57,7 +57,7 @@ function Certification() {
 
 
       <Row className="mb-4">
-    <h1> Certifications With my College:</h1>
+    <h1> Certifications through my College:</h1>
     <center>
         <Col xs={12} sm={6} className="mb-4">
     
