@@ -14,7 +14,7 @@ function Skills() {
         { name: "MongoDB", details: "NoSQL database for modern applications" },
         { name: "HTML", details: "Markup language for web development" },
         { name: "CSS", details: "Styling web pages with modern techniques" },
-        {name:"web development(without react)",details:"i can develop website without react js"}
+        {name:"web development(without react)",details:"i can develop website without React framework"}
       ]
     },
     {
