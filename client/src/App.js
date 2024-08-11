@@ -30,7 +30,8 @@ function App() {
       {/* row 2 - globe */}
       <Row className="mb-4">
         <Col xs={12} lg={12}>
-       
+   
+  
         </Col>
       </Row>
       <Routes>

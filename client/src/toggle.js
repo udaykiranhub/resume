@@ -21,7 +21,7 @@ function Toggle() {
                     {isMenuOpen ? (<h1 style={{color:"red"}}>Close</h1>): (<h1 style={{fontStyle:"italic",color:"green"}}>Open Menu</h1>)}
                 </button>
                 <ul className={isMenuOpen ? 'open' : ''} style={{}} >
-                  {/* <li><Link to="/"  className="no-underline">Home</Link></li> */}
+                  <li><Link to="/resume"  className="no-underline">Home</Link></li>
                     <li><Link to="/profile"  className="no-underline">Profile</Link></li>
                     <li><Link to="/education"  className="no-underline">Education</Link></li>
                     <li><Link to="/skills"  className="no-underline">Skills</Link></li>
