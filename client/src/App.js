@@ -34,7 +34,7 @@ function App() {
         </Col>
       </Row>
       <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route path="/resume" element={<Home/>}/>
         <Route path="/profile" element={<Profile />} />
         <Route path="/education" element={<Education />} />
         <Route path="/certifications" element={<Certification/>}/>
